@@ -29,7 +29,7 @@
 			<url>file://${project.build.directory}/mvn-repo</url>
 		</repository>
 		<snapshotRepository>
-			<id>internal.repo</id>
+			<id>snapshot.repo</id>
 			<name>Temporary SNAPSHOT Repository</name>
 			<url>file://${project.build.directory}/snapshots</url>
 		</snapshotRepository>
