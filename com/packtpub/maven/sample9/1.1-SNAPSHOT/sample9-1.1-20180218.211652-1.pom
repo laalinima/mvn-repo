@@ -28,6 +28,11 @@
 			<name>Temporary Staging Repository</name>
 			<url>file://${project.build.directory}/mvn-repo</url>
 		</repository>
+		<snapshotRepository>
+			<id>internal.repo</id>
+			<name>Temporary SNAPSHOT Repository</name>
+			<url>file://${project.build.directory}/snapshots</url>
+		</snapshotRepository>
 	</distributionManagement>
 
 	<build>
